@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<grammar>
+  <entry name="FramePhraseNominale_0">
+    <family>FramePhraseNominale</family>
+    <trace>
+      <class>FramePhraseNominale</class>
+    </trace>
+    <frame >
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FramePhraseNominaleVC_1">
+    <family>FramePhraseNominaleVC</family>
+    <trace>
+      <class>FramePhraseNominaleVC</class>
+    </trace>
+    <frame >
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FramePhraseNominaleVE_2">
+    <family>FramePhraseNominaleVE</family>
+    <trace>
+      <class>FramePhraseNominaleVE</class>
+    </trace>
+    <frame >
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameAppel_3">
+    <family>FrameAppel</family>
+    <trace>
+      <class>FrameAppel</class>
+    </trace>
+    <frame >
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameExclamative_4">
+    <family>FrameExclamative</family>
+    <trace>
+      <class>FrameExclamative</class>
+    </trace>
+    <frame >
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameInterrogative_5">
+    <family>FrameInterrogative</family>
+    <trace>
+      <class>FrameInterrogative</class>
+    </trace>
+    <frame >
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="Pronom_6">
+    <family>Pronom</family>
+    <trace>
+      <class>Pronom</class>
+    </trace>
+    <frame >
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameNomDem_7">
+    <family>FrameNomDem</family>
+    <trace>
+      <class>FrameNomDem</class>
+    </trace>
+    <frame >
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameProcEnc_8">
+    <family>FrameProcEnc</family>
+    <trace>
+      <class>FrameProcEnc</class>
+    </trace>
+    <frame >
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameAdverbe_9">
+    <family>FrameAdverbe</family>
+    <trace>
+      <class>FrameAdverbe</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="adverbe">
+          <sym varname="@V3"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="Lem">
+          <sym varname="@V3"/>
+        </f>
+        <f name="f">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameComplementCirc_10">
+    <family>FrameComplementCirc</family>
+    <trace>
+      <class>FrameComplementCirc</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="Circ">
+          <sym varname="@V3"/>
+        </f>
+        <f name="sn">
+          <sym varname="@V4"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="Lem">
+          <sym varname="@V3"/>
+        </f>
+        <f name="arg0">
+          <sym varname="@V4"/>
+        </f>
+        <f name="f">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameSyntagmeAdj_11">
+    <family>FrameSyntagmeAdj</family>
+    <trace>
+      <class>FrameSyntagmeAdj</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="adjective">
+          <sym varname="@V3"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="Lem">
+          <sym varname="@V3"/>
+        </f>
+        <f name="f">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameSyntagmeSemiProp_12">
+    <family>FrameSyntagmeSemiProp</family>
+    <trace>
+      <class>FrameSyntagmeSemiProp</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="syntagme">
+          <sym varname="@V3"/>
+        </f>
+        <f name="val">
+          <sym varname="@V4"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="FEType">
+          <sym varname="@Type1"/>
+        </f>
+        <f name="Lem">
+          <sym varname="@V4"/>
+        </f>
+        <f name="arg0">
+          <sym varname="@V3"/>
+        </f>
+        <f name="f">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameSyntagmeAppro_13">
+    <family>FrameSyntagmeAppro</family>
+    <trace>
+      <class>FrameSyntagmeAppro</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="f">
+          <sym varname="@V3"/>
+        </f>
+        <f name="val">
+          <sym varname="@V4"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="FEType">
+          <sym varname="@Type1"/>
+        </f>
+        <f name="Lem">
+          <sym varname="@V4"/>
+        </f>
+        <f name="arg0">
+          <fs coref="@Frame2"/>
+        </f>
+        <f name="arg1">
+          <sym varname="@V3"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameSyntagmeCorro_14">
+    <family>FrameSyntagmeCorro</family>
+    <trace>
+      <class>FrameSyntagmeCorro</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="corroboratif">
+          <sym varname="@V3"/>
+        </f>
+        <f name="enc">
+          <sym varname="@V4"/>
+        </f>
+        <f name="sujet_corroboratif">
+          <sym varname="@V5"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="FEType">
+          <sym varname="@Type1"/>
+        </f>
+        <f name="Lem">
+          <sym varname="@V3"/>
+        </f>
+        <f name="arg0">
+          <sym varname="@V5"/>
+        </f>
+        <f name="arg1">
+          <sym varname="@V4"/>
+        </f>
+        <f name="f">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameSyntagmeMode_15">
+    <family>FrameSyntagmeMode</family>
+    <trace>
+      <class>FrameSyntagmeMode</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="etat">
+          <sym varname="@V3"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="Lem">
+          <sym varname="@V3"/>
+        </f>
+        <f name="f">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameSyntagmeAnnex_16">
+    <family>FrameSyntagmeAnnex</family>
+    <trace>
+      <class>FrameSyntagmeAnnex</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="annexion">
+          <sym varname="@V3"/>
+        </f>
+        <f name="val">
+          <sym varname="@V4"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="FEType">
+          <sym varname="@Type1"/>
+        </f>
+        <f name="Lem">
+          <sym varname="@V4"/>
+        </f>
+        <f name="arg0">
+          <sym varname="@V3"/>
+        </f>
+        <f name="f">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameSyntagmeConj_17">
+    <family>FrameSyntagmeConj</family>
+    <trace>
+      <class>FrameSyntagmeConj</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="coordonné">
+          <sym varname="@V3"/>
+        </f>
+        <f name="coordonné_à_lui">
+          <sym varname="@V4"/>
+        </f>
+        <f name="particule">
+          <sym varname="@V5"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="FEType">
+          <sym varname="@Type1"/>
+        </f>
+        <f name="Lem">
+          <sym varname="@V5"/>
+        </f>
+        <f name="arg0">
+          <sym varname="@V4"/>
+        </f>
+        <f name="arg1">
+          <sym varname="@V3"/>
+        </f>
+        <f name="f">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameSyntagmeSub_18">
+    <family>FrameSyntagmeSub</family>
+    <trace>
+      <class>FrameSyntagmeSub</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="subbordonnee">
+          <sym varname="@V3"/>
+        </f>
+        <f name="val">
+          <sym varname="@V4"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="Lem">
+          <sym varname="@V4"/>
+        </f>
+        <f name="arg0">
+          <sym varname="@V3"/>
+        </f>
+        <f name="f">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameSyntagmePrep_19">
+    <family>FrameSyntagmePrep</family>
+    <trace>
+      <class>FrameSyntagmePrep</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="particule">
+          <sym varname="@V3"/>
+        </f>
+        <f name="sn">
+          <sym varname="@V4"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="FEType">
+          <sym varname="@Type1"/>
+        </f>
+        <f name="Lem">
+          <sym varname="@V3"/>
+        </f>
+        <f name="arg0">
+          <sym varname="@V4"/>
+        </f>
+        <f name="f">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameNomCommun_20">
+    <family>FrameNomCommun</family>
+    <trace>
+      <class>FrameNomCommun</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="val">
+          <sym varname="@V3"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="FEType">
+          <sym varname="@Type1"/>
+        </f>
+        <f name="Lem">
+          <sym varname="@V3"/>
+        </f>
+        <f name="f">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameNomPropre_21">
+    <family>FrameNomPropre</family>
+    <trace>
+      <class>FrameNomPropre</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="nameProp">
+          <sym varname="@V3"/>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="FEType">
+          <sym varname="@Type1"/>
+        </f>
+        <f name="Lem">
+          <sym varname="@V3"/>
+        </f>
+        <f name="f">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameDitransitifPassif_22">
+    <family>FrameDitransitifPassif</family>
+    <trace>
+      <class>FrameTransitifPassif</class>
+      <class>FrameDitransitifPassif</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="FE1">
+          <fs coref="@Frame4">
+            <ctype coref="@Type3"/>
+            <f name="subFrame">
+              <fs coref="@Frame6">
+                <ctype coref="@Type5"/>
+              </fs>
+            </f>
+          </fs>
+        </f>
+        <f name="FE2">
+          <fs coref="@Frame8">
+            <ctype coref="@Type7"/>
+            <f name="subFrame">
+              <fs coref="@Frame10">
+                <ctype coref="@Type9"/>
+              </fs>
+            </f>
+          </fs>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="Constraint1">
+          <sym varname="@Type5"/>
+        </f>
+        <f name="First">
+          <sym varname="@Type3"/>
+        </f>
+        <f name="NewFrameType">
+          <sym varname="@Type1"/>
+        </f>
+        <f name="Second">
+          <sym varname="@Type7"/>
+        </f>
+        <f name="arg0">
+          <fs coref="@Frame6"/>
+        </f>
+        <f name="arg1">
+          <fs coref="@Frame10"/>
+        </f>
+        <f name="e">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameTransitifPassif_23">
+    <family>FrameTransitifPassif</family>
+    <trace>
+      <class>FrameTransitifPassif</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="FE1">
+          <fs coref="@Frame4">
+            <ctype coref="@Type3"/>
+            <f name="subFrame">
+              <fs coref="@Frame6">
+                <ctype coref="@Type5"/>
+              </fs>
+            </f>
+          </fs>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="Constraint1">
+          <sym varname="@Type5"/>
+        </f>
+        <f name="First">
+          <sym varname="@Type3"/>
+        </f>
+        <f name="NewFrameType">
+          <sym varname="@Type1"/>
+        </f>
+        <f name="arg0">
+          <fs coref="@Frame6"/>
+        </f>
+        <f name="e">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameDitransitif_24">
+    <family>FrameDitransitif</family>
+    <trace>
+      <class>FrameIntransitif</class>
+      <class>FrameTransitif</class>
+      <class>FrameDitransitif</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="FE1">
+          <fs coref="@Frame4">
+            <ctype coref="@Type3"/>
+            <f name="subFrame">
+              <fs coref="@Frame6">
+                <ctype coref="@Type5"/>
+              </fs>
+            </f>
+          </fs>
+        </f>
+        <f name="FE2">
+          <fs coref="@Frame8">
+            <ctype coref="@Type7"/>
+            <f name="subFrame">
+              <fs coref="@Frame10">
+                <ctype coref="@Type9"/>
+              </fs>
+            </f>
+          </fs>
+        </f>
+        <f name="FE3">
+          <fs coref="@Frame12">
+            <ctype coref="@Type11"/>
+            <f name="subFrame">
+              <fs coref="@Frame14">
+                <ctype coref="@Type13"/>
+              </fs>
+            </f>
+          </fs>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="Constraint1">
+          <sym varname="@Type5"/>
+        </f>
+        <f name="Constraint2">
+          <sym varname="@Type9"/>
+        </f>
+        <f name="Constraint3">
+          <sym varname="@Type13"/>
+        </f>
+        <f name="First">
+          <sym varname="@Type3"/>
+        </f>
+        <f name="NewFrameType">
+          <sym varname="@Type1"/>
+        </f>
+        <f name="Second">
+          <sym varname="@Type7"/>
+        </f>
+        <f name="Third">
+          <sym varname="@Type11"/>
+        </f>
+        <f name="arg0">
+          <fs coref="@Frame6"/>
+        </f>
+        <f name="arg1">
+          <fs coref="@Frame10"/>
+        </f>
+        <f name="arg2">
+          <fs coref="@Frame14"/>
+        </f>
+        <f name="e">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameTransitif_25">
+    <family>FrameTransitif</family>
+    <trace>
+      <class>FrameIntransitif</class>
+      <class>FrameTransitif</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="FE1">
+          <fs coref="@Frame4">
+            <ctype coref="@Type3"/>
+            <f name="subFrame">
+              <fs coref="@Frame6">
+                <ctype coref="@Type5"/>
+              </fs>
+            </f>
+          </fs>
+        </f>
+        <f name="FE2">
+          <fs coref="@Frame8">
+            <ctype coref="@Type7"/>
+            <f name="subFrame">
+              <fs coref="@Frame10">
+                <ctype coref="@Type9"/>
+              </fs>
+            </f>
+          </fs>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="Constraint1">
+          <sym varname="@Type5"/>
+        </f>
+        <f name="Constraint2">
+          <sym varname="@Type9"/>
+        </f>
+        <f name="First">
+          <sym varname="@Type3"/>
+        </f>
+        <f name="NewFrameType">
+          <sym varname="@Type1"/>
+        </f>
+        <f name="Second">
+          <sym varname="@Type7"/>
+        </f>
+        <f name="arg0">
+          <fs coref="@Frame6"/>
+        </f>
+        <f name="arg1">
+          <fs coref="@Frame10"/>
+        </f>
+        <f name="e">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+  <entry name="FrameIntransitif_26">
+    <family>FrameIntransitif</family>
+    <trace>
+      <class>FrameIntransitif</class>
+    </trace>
+    <frame >
+      <fs coref="@Frame2">
+        <ctype coref="@Type1"/>
+        <f name="FE1">
+          <fs coref="@Frame4">
+            <ctype coref="@Type3"/>
+            <f name="subFrame">
+              <fs coref="@Frame6">
+                <ctype coref="@Type5"/>
+              </fs>
+            </f>
+          </fs>
+        </f>
+      </fs>
+    </frame>
+    <tree />
+    <interface>
+      <fs>
+        <f name="Constraint1">
+          <sym varname="@Type5"/>
+        </f>
+        <f name="First">
+          <sym varname="@Type3"/>
+        </f>
+        <f name="NewFrameType">
+          <sym varname="@Type1"/>
+        </f>
+        <f name="arg0">
+          <fs coref="@Frame6"/>
+        </f>
+        <f name="e">
+          <fs coref="@Frame2"/>
+        </f>
+      </fs>
+    </interface>
+  </entry>
+</grammar>
